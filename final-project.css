@@ -13,8 +13,8 @@ body {
   #top-image img {
     max-width: 100%;
     width:100%;
-    max-width: 1379px;
-    max-height: 114px;
+    max-width: 1400px;
+    max-height: 120px;
     height: auto;
   }
   
@@ -35,15 +35,16 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    margin-left:5px;
+    margin-left:2px;
     background-color: #fff;
-    min-width: 160px;
+    min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-align: left;
   }
   
   .dropdown-content span{
-    padding:20px;
+    padding:22px;
   }
 
   .dropdown:hover .dropdown-content {
@@ -57,13 +58,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #005896; /* 藍色背景 */
+    background-color: #005896;
   }
   
   .dropdown-item a {
     text-decoration: none;
     color: white;
-    border-bottom: none; /* 移除底線 */
+    border-bottom: none; 
   }
   
   .dropdown-arrow {
@@ -131,6 +132,7 @@ body {
   #left-div-down{
     background-color: white;
     height:auto;
+    max-width:90%;
   }
   #right-div {
     flex: 2;
